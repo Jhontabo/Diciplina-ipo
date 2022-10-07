@@ -1,0 +1,35 @@
+@import "./estilos.css";
+@import "./normalize.css";
+@import "./footer.css";
+/*-------------------------------------------------------------
+* se creo este archivo index.css con el finde tener una mayor organizacion
+* desde aqui "proponco" se llamen todos los estilos que se les agrege a cada seccion del html 
+* seccion sera un archivo
+* root es una sub clase raiz que nos permite configurar o dar estilos 
+* de tal forma que desde aca se colocan los estilos base como letras y tamaño de letra, y colores de algunas letras y el color del backgraun
+* es muy interesante la forma de dar fonto radial-gradient
+*----------------------------------*/
+:root
+{
+    --fontBase: 'Poppins', sans-serif;
+  --headline1: bold 95px/153.71px var(--fontBase);
+  --headline2: bold 59px/95px var(--fontBase);
+  --headline3: bold 48px/77px var(--fontBase);
+  --headline4: bold 34px/55px var(--fontBase);
+  --headline5: bold 24px/38px var(--fontBase);
+  --body1: 16px/25px var(--fontBase);
+  --body2: 14px/22px var(--fontBase);
+  --button: bold 14px/22px var(--fontBase);
+  --caption: 12px/19px var(--fontBase);
+  --gradient:radial-gradient(circle, rgba(19,162,107,1) 23%, rgba(85,205,237,1) 83%);
+  --black: rgb(0,0,0);
+  --white: rgb(248, 247, 247);
+}
+body {
+    background: var(--gradient);
+    min-block-size: 100vh;
+    min-height: 100vh;
+    min-width: 100vh;
+    font: var(--body1); 
+    color: var(--black);  
+  }
