@@ -1,6 +1,7 @@
-@import "./estilos.css";
+@import "./header.css";
 @import "./normalize.css";
 @import "./footer.css";
+@import "./hero.css";
 /*-------------------------------------------------------------
 * se creo este archivo index.css con el finde tener una mayor organizacion
 * desde aqui "proponco" se llamen todos los estilos que se les agrege a cada seccion del html 
