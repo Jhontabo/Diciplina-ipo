@@ -6,10 +6,11 @@
    top: 80px;
     display:flex;
     justify-content: space-between;
+    height: auto;
 }
 .hero-imag 
 {
-   /*overflow: hidden;*/
+   overflow: hidden;
 }
 .hero-descripcion{
 
@@ -17,6 +18,7 @@
     position: relative;
     top: 100px;
     font-size: 18px;
+    overflow: hidden;
 }
 .hero-descripcion strong
 {

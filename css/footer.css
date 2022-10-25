@@ -1,3 +1,9 @@
+
+.footer
+{
+  position: relative;
+  top: 70px;
+}
 .footer-content {
     display: flex;
     justify-content: space-around;

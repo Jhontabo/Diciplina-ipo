@@ -33,4 +33,5 @@ body {
     min-width: 100vh;
     font: var(--body1); 
     color: var(--black);  
+    /*overflow: hidden;*/
   }
