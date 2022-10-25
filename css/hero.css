@@ -16,12 +16,12 @@
 
     color:white;
     position: relative;
-    top: 100px;
+    top: 60px;
     font-size: 18px;
     overflow: hidden;
 }
 .hero-descripcion strong
 {
-    color: rebeccapurple;
+    color: rgba(102, 51, 153, 0.813);
 
 }

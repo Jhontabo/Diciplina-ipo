@@ -11,14 +11,14 @@
     position: fixed;
     left: 0px;
     top: 0px;
-    height: 80px;
+    height: 90px;
     width: 100%;
-    backdrop-filter: blur(30px);
+    /*backdrop-filter: blur(40px);*/
     z-index: 4;
 }
 .nav{
 
-    background: #043e6d00;
+    background: rgba(102, 51, 153, 0.298);
     height: 80px;
     width: 100%;    
 }
