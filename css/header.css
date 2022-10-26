@@ -8,6 +8,7 @@
     margin: 0;
 }   
 .header{
+
     position: fixed;
     left: 0px;
     top: 0px;
@@ -16,9 +17,10 @@
     backdrop-filter: blur(30px);
     z-index: 4;
 }
-.nav{
 
-    background: #043e6d00;
+nav{
+
+    background: #122beb00;
     height: 80px;
     width: 100%;    
 }
@@ -34,7 +36,7 @@
 .logo{
    
     width: 60px;
-    height: 30px;
+    height: 40px;
 }
 
 
@@ -84,6 +86,7 @@ transition: .5s;
 
 
 .checkbtn{
+    
     font-size: 30px;
     color: #fff;
     float: right;
