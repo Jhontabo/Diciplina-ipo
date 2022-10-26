@@ -12,9 +12,9 @@
     position: fixed;
     left: 0px;
     top: 0px;
-    height: 80px;
+    height: 90px;
     width: 100%;
-    backdrop-filter: blur(30px);
+    /*backdrop-filter: blur(40px);*/
     z-index: 4;
 }
 
