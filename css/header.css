@@ -36,7 +36,7 @@ nav{
 .logo{
    
     width: 60px;
-    height: 40px;
+    height: 30px;
 }
 
 
@@ -86,7 +86,6 @@ transition: .5s;
 
 
 .checkbtn{
-    
     font-size: 30px;
     color: #fff;
     float: right;
@@ -104,7 +103,7 @@ transition: .5s;
 }
 
 section{
-    /*background: url(../fonts/fondo.jpg) no-repeat;*/
+    background: url(../fonts/fondo.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
     height: calc(100vh - 80px);
