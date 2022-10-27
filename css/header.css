@@ -19,7 +19,12 @@
     z-index: 4;
 }
 
+nav{
 
+    background: rgba(102, 51, 153, 0.298);
+    height: 80px;
+    width: 100%;    
+}
 
 
 .enlace{

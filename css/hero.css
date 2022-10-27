@@ -2,8 +2,8 @@
 
 .hero
 {
-   position: relative;
-   top: 80px;
+    position: relative;
+    top: 80px;
     display:flex;
     justify-content: space-between;
     height: auto;
