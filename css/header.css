@@ -6,115 +6,69 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-}   
-.header{
-    position: fixed;
-    left: 0px;
-    top: 0px;
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+
+}
+.color-acento{ color:blueviolet; }
+
+header{
+    background-color: rgb(245,245,245);
+}
+
+header nav{
+    
     height: 80px;
     width: 100%;
-    /*backdrop-filter: blur(30px);*/
-   
-    z-index: 4;
 }
-.nav{
-
-    background: rgba(102, 51, 153, 0.298);
-    height: 80px;
-    width: 100%;    
-}
-
-
 .enlace{
-
     position: absolute;
     padding: 20px 50px;
 }
-
-
 .logo{
-   
-    width: 60px;
-    height: 30px;
+    height: 40px;
 }
-
-
-.nav__ul{
-
-    float:right;
-    margin-right: 50px;
-    
-
+nav ul{
+    float: right;
+    margin-right: 15px;
 }
-
-.nav__li{
-
+nav ul li{
     display: inline-block;
     line-height: 80px;
     margin: 0 5px;
+}
+nav ul li a{
     color: #fff;
-    text-align:center;
-}
-
-
-.nav__li a{
-
     font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
     text-transform: uppercase;
-    border-radius: 10%;
-    padding: 0px 10px;
-    color: #fff;
 }
-
-
-.nav__li i{
-
-
-    font-size: 18px;
-    text-transform: uppercase;
-    padding: 0px 10px;
-
+li a.active, li a:hover{
+    background: #000090;
+    transition: .5s;
 }
-
-.nav__li a:hover{
-
-background: rgb(158, 156, 167);
-transition: .5s;
-
-}
-
-
 .checkbtn{
-    font-size: 30px;
+    font-size: 25px;
     color: #fff;
     float: right;
     line-height: 80px;
-    margin-right: 40px;
+    margin-right: 20px;
     cursor: pointer;
     display: none;
-    
 }
-
-
 #check{
-
     display: none;
 }
-
-section{
-    /*background: url(../fonts/fondo.jpg) no-repeat;*/
-    background-size: cover;
-    background-position: center center;
-    height: calc(100vh - 80px);
-}
-
 
 
 @media (max-width: 952px){
     .enlace{
         padding-left: 20px;
     }
-    nav__li a{
+    nav ul li a{
         font-size: 16px;
     }
 }
@@ -133,15 +87,15 @@ section{
         text-align: center;
         transition: all .5s;
     }
-    nav__li{
+    nav ul li{
         display: block;
         margin: 50px 0;
         line-height: 30px;
     }
-    nav__li a{
+    nav ul li a{
         font-size: 20px;
     }
-    nav__li a:hover{
+    li a:hover, li a.active{
         background: none;
         color: red;
     }
@@ -149,5 +103,3 @@ section{
         left:0;
     }
 }
-
-

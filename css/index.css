@@ -1,6 +1,5 @@
 @import "./header.css";
-@import "./normalize.css";
-@import "./footer.css";
+/*@import "./footer.css";*/
 @import "./hero.css";
 /*-------------------------------------------------------------
 * se creo este archivo index.css con el finde tener una mayor organizacion
@@ -26,12 +25,4 @@
   --black: rgb(0,0,0);
   --white: rgb(248, 247, 247);
 }
-body {
-    background: var(--gradient);
-    min-block-size: 100vh;
-    min-height: 100vh;
-    min-width: 100vh;
-    font: var(--body1); 
-    color: var(--black);  
-    /*overflow: hidden;*/
-  }
+
