@@ -7,7 +7,7 @@
     padding: 0;
     margin: 0;
 }   
-.header{
+header{
 
     position: fixed;
     left: 0px;
@@ -19,10 +19,17 @@
 
 nav{
 
-    background: rgba(0, 12, 245, 0.298);
+    background:rgb(14, 13, 13);
     height: 80px;
     width: 100%;    
 }
+
+.container{
+
+    max-width: 1400px;
+    margin: auto;
+}
+
 
 .nav__ul{
 
@@ -37,7 +44,7 @@ nav{
     display: inline-block;
     line-height: 80px;
     margin: 0 5px;
-    color: #fff;
+    color: rgb(255, 255, 255);
     text-align:center;
 }
 
@@ -48,7 +55,7 @@ nav{
     text-transform: uppercase;
     border-radius: 10%;
     padding: 0px 10px;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 
 

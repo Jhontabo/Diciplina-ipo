@@ -1,0 +1,52 @@
+#hero{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("/fonts/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+#hero h1{
+    color: azure;
+    font-size: 5em;
+}
+
+
+/*Aqui vamos a estilizar la section de la informacion*/
+
+#info .container{
+
+    text-align: center;
+    padding: 50px 15px;
+    margin-bottom: 50px;
+
+}
+
+#info h2{
+
+    font-size: 4em;
+}
+
+
+#info p{
+    padding-top: 40px;
+    font-size: 1.2em;
+}
+
+
+
+/*En esta parte hare la section de autores o las cartas*/
+
+
