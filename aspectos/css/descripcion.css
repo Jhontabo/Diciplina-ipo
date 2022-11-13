@@ -1,0 +1,22 @@
+.descripcion
+{
+    max-width: 1400px;
+    margin: auto;
+    position:absolute;
+    top: 95%;
+    display: flex;
+}
+.imagen
+{
+    background-image: url(/fonts/Personalizar.png);
+    background-size: cover;
+    height: 400px;
+    width: 50%;
+}
+
+.texto
+{
+    max-width: 50%;
+    padding: 0px 5px 0px 50px;
+    left: 10px;
+}

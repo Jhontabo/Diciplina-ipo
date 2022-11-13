@@ -1,0 +1,11 @@
+footer
+{
+    position: absolute;
+    top: 170%;
+    width: 100%;
+    padding: 50px 0px;
+    background-image: url(/fonts/background-footer.svg);
+    background-size: cover;
+    margin: auto;
+}
+
