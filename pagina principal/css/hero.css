@@ -18,16 +18,7 @@
     
 }
 
-button{
-    font-size: 1em;
-    font-weight: bold;
-    padding: 10px 30px;
-    border-radius: 5px;
-    border: 2px solid rgba(0,0,0,0.3);
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
-    color: white;
-    background-color: blueviolet;
-}
+
 
 #hero h1{
     color: azure;
@@ -97,7 +88,7 @@ button{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("/Diciplina-ipo/fonts/JhonTajumbina.jpg");
+    ,url("/fonts/JhonTajumbina.jpg");
 }
 
 .carta:nth-child(2){
@@ -106,7 +97,7 @@ button{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("/Diciplina-ipo/fonts/Jonatan.jpg");
+    ,url("/fonts/Jonatan.jpg");
 }
 
 .carta:nth-child(3){
@@ -115,7 +106,7 @@ button{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("/Diciplina-ipo/fonts/Estefania.jpg");
+    ,url("/fonts/Estefania.jpg");
 }
 
 
@@ -241,7 +232,7 @@ footer .container{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("/fonts/JhonTajumbina.jpg");
+    ,url("/fonts/Jonatan.jpg");
     }
 
     .carta:nth-child(3){
@@ -250,7 +241,7 @@ footer .container{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("/fonts/JhonTajumbina.jpg");
+    ,url("/fonts/Estefania.jpg");
 
     }
 
