@@ -97,7 +97,7 @@ button{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("/fonts/hero.jpg");
+    ,url("/Diciplina-ipo/fonts/JhonTajumbina.jpg");
 }
 
 .carta:nth-child(2){
@@ -106,7 +106,7 @@ button{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("/fonts/hero.jpg");
+    ,url("/Diciplina-ipo/fonts/Jonatan.jpg");
 }
 
 .carta:nth-child(3){
@@ -115,7 +115,7 @@ button{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("/fonts/hero.jpg");
+    ,url("/Diciplina-ipo/fonts/Estefania.jpg");
 }
 
 
