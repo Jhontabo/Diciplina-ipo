@@ -1,4 +1,2 @@
-# Diciplinas de la ipo
-
-
-Diciplinas de la ipo cuarto semestre
+# Diciplina-ipo
+Trabajo en equipo para el desarrollo de la pagina web fundamentos de la ipo de la materia IHM

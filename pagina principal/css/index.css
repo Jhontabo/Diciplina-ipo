@@ -1,6 +1,6 @@
 @import "./header.css";
-@import "./normalize.css";
 @import "./footer.css";
+@import "./hero.css";
 /*-------------------------------------------------------------
 * se creo este archivo index.css con el finde tener una mayor organizacion
 * desde aqui "proponco" se llamen todos los estilos que se les agrege a cada seccion del html 
@@ -11,7 +11,7 @@
 *----------------------------------*/
 :root
 {
-    --fontBase: 'Poppins', sans-serif;
+  --fontBase: 'Poppins', sans-serif;
   --headline1: bold 95px/153.71px var(--fontBase);
   --headline2: bold 59px/95px var(--fontBase);
   --headline3: bold 48px/77px var(--fontBase);
@@ -25,11 +25,4 @@
   --black: rgb(0,0,0);
   --white: rgb(248, 247, 247);
 }
-body {
-    background: var(--gradient);
-    min-block-size: 100vh;
-    min-height: 100vh;
-    min-width: 100vh;
-    font: var(--body1); 
-    color: var(--black);  
-  }
+
