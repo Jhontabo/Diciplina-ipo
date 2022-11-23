@@ -14,7 +14,7 @@
     position: absolute;
     top: 0;
 }
-.wave{
+/* .wave{
     width: 6000px;
     height: 100%;
     position: absolute;
@@ -27,7 +27,7 @@
 .w1
 {
     animation: w1 7s linear infinite;
-}
+} */
 
 @keyframes w1 {
     0%{
@@ -37,10 +37,10 @@
         margin-left: -1600px;
     }
 }
-.w2{
+/* .w2{
     animation: w2 7s linear -.125s infinite, desplazamiento 7s ease  -.125s infinite;
     opacity: 0.5;
-}
+} */
 @keyframes w2 {
     0%{
         margin-left: 0;
